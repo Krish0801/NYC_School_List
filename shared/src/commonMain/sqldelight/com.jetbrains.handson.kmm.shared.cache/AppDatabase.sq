@@ -1,0 +1,15 @@
+CREATE TABLE NYCSchoolData (
+    school_name TEXT ,
+    dbn TEXT
+);
+
+insertNYCSchoolNames:
+INSERT INTO NYCSchoolData(school_name,dbn)
+VALUES(?,?);
+
+removeAllNYCSchoolNames:
+DELETE FROM NYCSchoolData;
+
+selectAllNYCSchoolNamesInfo:
+SELECT NYCSchoolData.*
+FROM NYCSchoolData;

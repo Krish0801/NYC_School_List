@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NYC School List</string>
+
+    <string name="school_name">School Name:</string>
+    <string name="dbn">DBN:</string>
+    <string name="no_data">No data</string>
+</resources>
